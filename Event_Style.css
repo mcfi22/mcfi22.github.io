@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.top-section{
+    height: 250vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,29,92,0.7),rgba(4,9,30,0.9)),url(photos/Intrams1.jpg);
+    background-size: cover;
+}
+
+
+
+nav1{
+    display: flex;
+    padding: 0.01% 6%;
+    justify-content: space-between;
+    align-items: top;
+    background-color: #2B547E;  
+    height:
+}
+nav1 p1{
+    color: #eaffff;
+    font-size: 13px;
+    padding: 12px;
+ 
+}
+.top-links{
+    flex: 1;
+    text-align: right;
+}
+.top-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.top-links ul li a{
+    color: #eaffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.school-name{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    display: flex; 
+    top: 6%;
+    background-color: #128551;
+   
+    
+}
+.school-name h1{
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    top: 25px;
+    left: 305px;
+    color: #eaffff;
+   
+}
+.school-name p{
+    font-size: 20px;
+    color: #eaffff;
+    position: absolute;
+    left: 485px;
+    top: 80px;
+}
+.logo img{
+    width: 100px;
+    position: absolute;
+    left: 190px;
+    top: 10.6px;
+}
+
+nav2{
+    display: flex;
+    padding: 0.3% 6%;
+    justify-content: space-between;
+    align-items: top;
+    background-color: #2B547E; 
+    margin-top: 115px;
+}
+.mid-links{
+    flex: 1;
+    text-align: center;
+}
+
+.home-btn{
+    background-color: #007080;
+}
+
+.mid-links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.mid-links ul li a{
+    color: #eaffff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 8px 12px;
+    font-size: 13px;
+    background-color: #2B547E;
+    position: relative;
+    cursor: pointer; 
+}
+
+.mid-links ul li a:hover{
+   
+    background: #007080;}
+    
+
+
+
+.home{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+
+
+
+
+.nefont h1{
+
+color: #eaffff;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+     font-family: 'Cinzel', serif;
+    text-align: center;
+    padding-top: 10%;
+
+    
+    
+}
+
+.sport{
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    margin-left: 32%;
+   
+
+}
+
+
+.row {
+  display: flex;
+    padding-top: 10%;
+
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 10%;
+  max-width: 19.8%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
+
+.sf h1{
+    color: #eaffff;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+     font-family: 'Cinzel', serif;
+    text-align: center;
+    
+}
+
+
+
+
+
+/*--Video--*/
+
+.vid{
+      height: 150vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.9),rgba(235,255,255,1)),url(photos/crim4.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+.video{
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+top: -250px;
+    
+}
+
+.captiontitle h{
+    position: absolute;
+    width: 75%;
+    text-align: center;
+    left: 11%;
+    color: #eaffff;
+    font-size: 32px;
+    padding-bottom: 10px;
+
+    
+    
+}
+.caption a1{
+    color: #eaffff;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    left: 53%;
+    font-size: 18px;
+   top: 100px;
+}
+.caption a2{
+    color: #eaffff;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    left: 25%;
+    font-size: 18px;
+   top: 120px;
+}
+.caption p{
+    color: #eaffff;
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    left: 23.4%; 
+    font-size: 16px;
+    top: 120px;
+ 
+    
+}
+
+.news{
+   background-color: #eaffff;
+    
+}
+
+    
+
+
+
+.newstitle h{
+    color: #2B547E;
+     font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+     font-family: 'Cinzel', serif;
+    text-align: center;
+    padding-top: 10%;
+    
+    
+}
+
+
+
+/*----*/
+
+
+
+.list {
+
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+    margin-bottom: 1%;
+    
+
+}
+.list img{
+    width: 40%;
+    height: 75px;
+}
+
+
+.heading-3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #2B547E;
+    margin-left: 100px;
+    margin-top: -150px;
+    padding-bottom: 20px;
+    display: flex;
+    position: relative;
+}
+.right p{
+    color: #2B547E;
+    margin-left: -150px;
+    width: 300px;
+    white-space: pre;
+   
+}
+
+.right p1{
+    color: #2B547E;
+    font-size: 12px;
+    
+  
+   
+}
+
+
+
+
+/*--Connect--*/
+
+.line1 {
+    background-color: #2B547E;
+    height: 25px;}
+
+.bot-section{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #128551;
+}
+.connect h{
+    color: #eaffff;
+    
+}
+.icon{
+    align-content: center;
+   padding: 5px;
+}   
+.fb {
+    height: 50px;
+}
+.disclaimer p{
+    color: #eaffff;
+    font-size: 14px;
+    top: 50px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.disclaimer a{
+    color: #eaffff;
+    font-size: 14px;
+     top: 50px;
+    padding: 1px;
+    
+   position: relative;
+}
