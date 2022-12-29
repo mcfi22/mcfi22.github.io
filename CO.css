@@ -5,11 +5,6 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.top-section{
-   
-}
-
-
 
 nav1{
     display: flex;
@@ -44,9 +39,8 @@ nav1 p1{
 .school-name{
     width: 100%;
     height: 120px;
-    position: absolute;
-    display: flex; 
-    top: 6%;
+    position: relative;
+    display: flex;
     background-color: #128551;
    
     
@@ -63,14 +57,14 @@ nav1 p1{
 .school-name p{
     font-size: 20px;
     color: #eaffff;
-    position: absolute;
+    position: relative;
     left: 485px;
     top: 80px;
 }
 .logo img{
     width: 100px;
-    position: absolute;
-    left: 190px;
+    position: relative;
+    left: -140px;
     top: 10.6px;
 }
 
@@ -80,7 +74,7 @@ nav2{
     justify-content: space-between;
     align-items: top;
     background-color: #2B547E; 
-    margin-top: 115px;
+
 }
 .mid-links{
     flex: 1;
@@ -124,7 +118,7 @@ nav2{
 .acadtitle{
 
     width 80%;
-   background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(photos/mega2.jpeg);
+   background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(mega2.jpeg);
     background-size: cover;
     background-position: center;
     background-size: cover;
@@ -218,4 +212,111 @@ nav2{
     padding: 1px;
     
    position: relative;
+}
+
+
+
+@media(max-width: 800px){
+    
+    .top-section{
+   height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(mega2.jpeg);
+    background-size: cover;
+}
+    
+    nav1 p1{
+    color: #eaffff;
+    font-size: 10px;
+        padding: 12px;}
+        
+    .school-name{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    display: flex; 
+    top: 0;
+        background-color: #128551; }
+        
+    .school-name h1{
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+
+    top: 10px;
+    left: 130px;
+    color: #eaffff;
+   
+}
+.school-name p{
+    font-size: 10px;
+    color: #eaffff;
+    position: absolute;
+    left: 130px;
+    top: 70px;
+}
+    .logo img{
+    width: 70px;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+    nav2{
+    display: flex;
+    padding: 0.3% 6%;
+    justify-content: space-between;
+    align-items: top;
+    background-color: #2B547E; 
+    margin-top: 0;
+}
+    
+    .acadtitle{
+
+    width 80%;
+   background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(mega2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 10px}
+    
+    .acadtitle h1{
+    color: #eaffff;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+     font-family: 'Cinzel', serif;
+}
+    
+    
+    
+    .text-sec {
+    border-style: solid;
+    border-width: 2px;
+    color: #2B547E;
+    margin: 12px 12px;
+}
+
+.text{
+    background-color: #eaffff;
+   
+}
+
+.ptext h1{
+   text-align: center;
+    color: #2B547E;
+    padding: 50px 0 15px 0;
+    margin: 0 10px 0 10px;
+     font-family: 'Cinzel', serif;
+    font-size: 16px;
+}
+
+.ptext p1{
+      
+    padding-bottom: 8px;
+    left: 10px;
+    font-size: 12px;
+    width: 80%;
+     margin-left: 5%;
+    margin-right: 5%;
 }
