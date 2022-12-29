@@ -163,8 +163,6 @@ nav2{
 }
 
 
-  
-
 
 .contact-col {
     font-size: 10px;
@@ -301,11 +299,12 @@ nav2{
     
     
     .location{
+        padding-bottom: 300px;
 
 }
 
 .loc{
-    width: auto;
+    width: 90%;
     margin: auto;
     padding: 80px 0;
     
@@ -317,34 +316,15 @@ nav2{
 }
 
 .row {
-
-    left: 7px;
-    position: relative;
-   width: 200px;
-  
-
-    
-    
+left: -20%;
+top: -50px;
+ 
+  margin: auto;
 }
-
-.contact-col {
-    font-size: 10px;
-    text-decoration: none;
-    color: #2B547E;
-     
-    
-}
-
-.contact-col p{
-    padding-bottom: 20px;
-}
+ 
 
 
-.contact-col a{
-    text-decoration: none;
-    color: #2B547E;
-}
-    
+ 
     
     
 }
