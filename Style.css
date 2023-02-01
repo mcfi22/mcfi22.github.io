@@ -4,7 +4,6 @@
     font-family: 'Cinzel', serif;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
 .top-section{
     
     width: 100%;
@@ -12,9 +11,6 @@
     background-image: linear-gradient(rgba(43,84,126,0.7),rgba(11,21,31,0.9)),url(mega2.jpeg);
     background-size: cover;
 }
-
-
-
 nav1{
     display: flex;
     padding: 0.01% 6%;
@@ -44,15 +40,12 @@ nav1 p1{
     text-decoration: none;
     font-size: 13px;
 }
-
 .school-name{
     width: 100%;
     height: 120px;
     position: relative;
     display: flex;
     background-color: #128551;
-   
-    
 }
 .school-name h1{
     font-size: 40px;
@@ -61,7 +54,6 @@ nav1 p1{
     top: 25px;
     left: 305px;
     color: #eaffff;
-   
 }
 .school-name p{
     font-size: 20px;
@@ -76,25 +68,20 @@ nav1 p1{
     left: -140px;
     top: 10.6px;
 }
-
 nav2{
     display: flex;
     padding: 0.3% 6%;
     justify-content: space-between;
     align-items: top;
     background-color: #2B547E; 
-
 }
-
 .home-btn{
     background-color: #007080;
 }
-
 .mid-links{
     flex: 1;
     text-align: center;
 }
-
 .mid-links ul li{
     list-style: none;
     display: inline-block;
@@ -111,12 +98,9 @@ nav2{
     position: relative;
     cursor: pointer; 
 }
-
 .mid-links ul li a:hover{
    
     background: #007080;}
-    
-
 .home{
     color: #fff;
     text-decoration: none;
@@ -131,7 +115,6 @@ nav2{
     margin-left: 5%;
     margin-right: 5%;
     display: flex; 
-
 }
 
 .slides{
@@ -139,34 +122,25 @@ nav2{
     height: 400px;
     display: flex;
 }
-
 .slides input{
-    display: none;
-   
+    display: none; 
 }
 
 .slide{
     width: 25%;
     transition: 2s; 
 }
-
 .slide img{
     width: 1155px;
     height: 400px;
 }
-
-
-
-
 /*--Manual Nav--*/
 
 .navigation-manual{
     position: absolute;
     display: flex;
-    margin: 10px;
-    
+    margin: 10px; 
 }
-
 .manual-btn{
     border: 2px solid #eaffff;
     padding: 4px;
@@ -174,52 +148,40 @@ nav2{
     cursor: pointer;
     transition: 1s;
 }
-
 .manual-btn:not(:last-child){
     margin-right: 20px;
 }
-
 .manual-btn:hover{
     background: #eaffff;
 }
-
-#radio1:checked ~ .first{
-    
+#radio1:checked ~ .first{ 
     margin-left: 0;
 }
-#radio2:checked ~ .first{
-    
+#radio2:checked ~ .first{ 
     margin-left: -25%;
 }
 #radio3:checked ~ .first{
-    
     margin-left: -50%;
 }
 #radio4:checked ~ .first{
-    
     margin-left: -75%;
 }
 
 /*--auto nav--*/
-
 .navigation-auto{
     position: absolute;
     display: flex;
     margin: 10px;
-   
-  
 }
 .navigation-auto div{
     border: 2px solid #eaffff;
     padding: 4px;
     border-radius: 10px;
-    transition: 1s;
-  
+    transition: 1s; 
 }
 .navigation-auto div:not(:last-child){
     margin-right: 20px;
 }
-
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background: #eaffff;
 }
@@ -234,7 +196,6 @@ nav2{
 }
 
 /*--Video--*/
-
 .video{
     position: relative;
     display: flex;
@@ -243,18 +204,17 @@ nav2{
     width: 660px;
     left: 50px;
 }
-
 .video-section h{
     position: relative;
     text-align: center;
     display: flex;
     top: 140%;
     padding-top: 100px;
-    margin: 0 100px 0 100px;
+    margin: 0 150px 0 200px;
     color: #2B547E;
     font-size: 32px;
+    font-family: 'Cinzel', serif;
 }
-
 /*--Acad--*/
 
 .ap{
@@ -274,7 +234,6 @@ nav2{
     font-weight: 600;
     padding-bottom: 50px;
 }
-
 .acad p1{
     color: #2B547E;
 }
@@ -331,7 +290,6 @@ nav2{
     background-color: #2B547E;
 }
 
-
 /*--Connect--*/
 
 .bot-section{
@@ -341,15 +299,11 @@ nav2{
     padding-bottom: 100px;
     background-color: #2B547E; 
 }
-
-
 .foot-links{
     flex: 1;
     text-align: center;
-    margin-bottom:25px;
-    
+    margin-bottom:25px; 
 }
-
 .foot-links ul li{
     list-style: none;
     display: inline-block;
@@ -365,13 +319,8 @@ nav2{
     position: relative;
     cursor: pointer; 
 }
-
-
-
 .connect h{
-    color: #eaffff;
-    
-    
+    color: #eaffff; 
 }
 .icon{
     align-content: center;
@@ -380,18 +329,12 @@ nav2{
 .fb {
     height: 50px;
 }
-
-
-
-
-
 .disclaimer p{
     color: #eaffff;
     font-size: 14px;
     top: 50px;
     position: relative;
     padding-bottom: 10px;
-
 }
 .disclaimer a{
     color: #eaffff;
@@ -404,11 +347,6 @@ nav2{
 
 
 
-
-
-
-
-
 @media(max-width: 800px){
     
     .top-section{
@@ -416,28 +354,24 @@ nav2{
     width: 100%;
     background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(mega2.jpeg);
     background-size: cover;
-}
-    
+}  
     nav1 p1{
     color: #eaffff;
     font-size: 10px;
         padding: 12px;}
-        
     .school-name{
     width: 100%;
     height: 90px;
     position: relative;
     display: flex; 
     top: 0;
-        background-color: #128551; }
-        
+        background-color: #128551; } 
     .school-name h1{
     font-size: 20px;
     font-family: 'Cinzel', serif;
     top: 10px;
     left: 130px;
     color: #eaffff;
-   
 }
 .school-name p{
     font-size: 10px;
@@ -460,31 +394,26 @@ nav2{
     background-color: #2B547E; 
     margin-top: 0;
 }
-    
+
     .slider{
     width: 90%;
     height: 190px;
     overflow: hidden;
     display: flex;
-
 }
 
 .slides{
     width 500%;
     height: 190px;
-
 }
 
 .slides input{
     display: none;
-   
 }
 
 .slide{
     width: 25%;
-    transition: 2s;
-    
-   
+    transition: 2s;  
 }
 
 .slide img{
@@ -493,16 +422,11 @@ nav2{
 }
     .navigation-manual{
     position: absolute;
-   
-
 }
 .navigation-auto{
     position: absolute;
-
 }
-
-
-    
+  
 .video{
     position: relative;
     top: 55px;
@@ -524,8 +448,6 @@ nav2{
     margin: auto;
     left: -5px;
     }
-    
-    
     .row{
     flex-direction: column;
 }
@@ -546,7 +468,6 @@ nav2{
     font-weight: 600;
     padding-bottom: 25px;
 }
-
 .acad p1{
     color: #2B547E;
 }
@@ -557,5 +478,4 @@ nav2{
     line-height: 22px;
     padding: 30px;
 }
-    
 }

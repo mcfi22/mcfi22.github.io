@@ -4,8 +4,6 @@
     font-family: 'Cinzel', serif;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
-
 nav1{
     display: flex;
     padding: 0.01% 6%;
@@ -18,7 +16,6 @@ nav1 p1{
     color: #eaffff;
     font-size: 13px;
     padding: 12px;
- 
 }
 .top-links{
     flex: 1;
@@ -35,15 +32,12 @@ nav1 p1{
     text-decoration: none;
     font-size: 13px;
 }
-
 .school-name{
     width: 100%;
     height: 120px;
     position: relative;
     display: flex;
-    background-color: #128551;
-   
-    
+    background-color: #128551; 
 }
 .school-name h1{
     font-size: 40px;
@@ -52,7 +46,6 @@ nav1 p1{
     top: 25px;
     left: 305px;
     color: #eaffff;
-   
 }
 .school-name p{
     font-size: 20px;
@@ -67,24 +60,20 @@ nav1 p1{
     left: -140px;
     top: 10.6px;
 }
-
 nav2{
     display: flex;
     padding: 0.3% 6%;
     justify-content: space-between;
     align-items: top;
     background-color: #2B547E; 
-
 }
 .mid-links{
     flex: 1;
     text-align: center;
 }
-
 .home-btn{
     background-color: #007080;
 }
-
 .mid-links ul li{
     list-style: none;
     display: inline-block;
@@ -101,22 +90,14 @@ nav2{
     position: relative;
     cursor: pointer; 
 }
-
 .mid-links ul li a:hover{
-   
     background: #007080;}
-    
-
-
-
 .home{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
-    
+    font-size: 13px; 
 }
 .acadtitle{
-
     width 80%;
    background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(mega2.jpeg);
     background-size: cover;
@@ -124,7 +105,6 @@ nav2{
     background-size: cover;
     text-align: center;
     padding: 50px}
-
 .acadtitle h1{
     color: #eaffff;
     font-size: 45px;
@@ -133,62 +113,44 @@ nav2{
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
      font-family: 'Cinzel', serif;
 }
-
 .acadtitle p1{
     color: #eaffff;
 }
-
 .location{
     margin-bottom: -300px;
 }
-
 .loc{
     width: 80%;
     margin: auto;
-    padding: 80px 0;
-    
-   
+    padding: 80px 0; 
 }
 .loc iframe{
-    width 80%;
-    
+    width 80%; 
 }
-
 .row {
    top: -525px;
     left: 750px;
     position: relative;
    width: 200px;
-    
 }
-
-
-
 .contact-col {
     font-size: 10px;
     text-decoration: none;
     color: #2B547E;
-    
 }
-
 .contact-col p{
     padding-bottom: 20px;
 }
-
-
 .contact-col a{
     text-decoration: none;
     color: #2B547E;
 }
-
 .line1 {
     background-color: #2B547E;
     height: 25px;
-   
 }
 
 /*--Connect--*/
-
 .bot-section{
     margin: auto;
     text-align: center;
@@ -196,15 +158,11 @@ nav2{
     padding-bottom: 100px;
     background-color: #2B547E; 
 }
-
-
 .foot-links{
     flex: 1;
     text-align: center;
     margin-bottom:25px;
-    
 }
-
 .foot-links ul li{
     list-style: none;
     display: inline-block;
@@ -220,13 +178,8 @@ nav2{
     position: relative;
     cursor: pointer; 
 }
-
-
-
 .connect h{
-    color: #eaffff;
-    
-    
+    color: #eaffff; 
 }
 .icon{
     align-content: center;
@@ -235,25 +188,18 @@ nav2{
 .fb {
     height: 50px;
 }
-
-
-
-
-
 .disclaimer p{
     color: #eaffff;
     font-size: 14px;
     top: 50px;
     position: relative;
     padding-bottom: 10px;
-
 }
 .disclaimer a{
     color: #eaffff;
     font-size: 14px;
      top: 50px;
     padding: 1px;
-    
    position: relative;
 }
 
@@ -265,12 +211,10 @@ nav2{
     background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(mega2.jpeg);
     background-size: cover;
 }
-    
     nav1 p1{
     color: #eaffff;
     font-size: 10px;
         padding: 12px;}
-        
     .school-name{
     width: 100%;
     height: 90px;
@@ -278,15 +222,12 @@ nav2{
     display: flex; 
     top: 0;
         background-color: #128551; }
-        
     .school-name h1{
     font-size: 20px;
     font-family: 'Cinzel', serif;
-
     top: 10px;
     left: 130px;
     color: #eaffff;
-   
 }
 .school-name p{
     font-size: 10px;
@@ -309,9 +250,7 @@ nav2{
     background-color: #2B547E; 
     margin-top: 0;
 }
-    
     .acadtitle{
-
     width 80%;
    background-image: linear-gradient(rgba(4,59,92,0.7),rgba(4,9,30,0.9)),url(mega2.jpeg);
     background-size: cover;
@@ -319,7 +258,6 @@ nav2{
     background-size: cover;
     text-align: center;
     padding: 10px}
-    
     .acadtitle h1{
     color: #eaffff;
     font-size: 24px;
@@ -328,36 +266,21 @@ nav2{
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
      font-family: 'Cinzel', serif;
 }
-    
-    
-    
     .location{
         padding-bottom: 300px;
-
 }
 
 .loc{
     width: 90%;
     margin: auto;
     padding: 80px 0;
-    
-   
 }
 .loc iframe{
     width: 100%;
-    
 }
-
 .row {
 left: -20%;
 top: -50px;
- 
   margin: auto;
-}
- 
-
-
- 
-    
-    
+}  
 }

@@ -4,11 +4,10 @@
     font-family: 'Cinzel', serif;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
 .top-section{
 
     width: 100%;
-    background-image: linear-gradient(rgba(4,29,92,0.7),rgba(4,9,30,0.9)),url(intrams1.jpg);
+    background-image: linear-gradient(rgba(4,29,92,0.7),rgba(4,9,30,0.9)),url(Intrams1.jpg);
     background-size: cover;
     padding-bottom: 100px;
 }
@@ -24,7 +23,6 @@ nav1 p1{
     color: #eaffff;
     font-size: 13px;
     padding: 12px;
- 
 }
 .top-links{
     flex: 1;
@@ -41,15 +39,12 @@ nav1 p1{
     text-decoration: none;
     font-size: 13px;
 }
-
 .school-name{
     width: 100%;
     height: 120px;
     position: relative;
     display: flex;
-    background-color: #128551;
-   
-    
+    background-color: #128551; 
 }
 .school-name h1{
     font-size: 40px;
@@ -58,7 +53,6 @@ nav1 p1{
     top: 25px;
     left: 305px;
     color: #eaffff;
-   
 }
 .school-name p{
     font-size: 20px;
@@ -73,24 +67,20 @@ nav1 p1{
     left: -140px;
     top: 10.6px;
 }
-
 nav2{
     display: flex;
     padding: 0.3% 6%;
     justify-content: space-between;
     align-items: top;
     background-color: #2B547E; 
-
 }
 .mid-links{
     flex: 1;
     text-align: center;
 }
-
 .home-btn{
     background-color: #007080;
 }
-
 .mid-links ul li{
     list-style: none;
     display: inline-block;
@@ -107,25 +97,14 @@ nav2{
     position: relative;
     cursor: pointer; 
 }
-
 .mid-links ul li a:hover{
    
     background: #007080;}
-    
-
-
-
 .home{
     color: #fff;
     text-decoration: none;
     font-size: 13px;
-    
 }
-
-
-
-
-
 .nefont h1{
 
 color: #eaffff;
@@ -135,10 +114,7 @@ color: #eaffff;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
      font-family: 'Cinzel', serif;
     text-align: center;
-    padding-top: 10%;
-
-    
-    
+    padding-top: 10%;  
 }
 
 .sport{
@@ -147,16 +123,10 @@ color: #eaffff;
 
     display: flex;
     margin-left: 32%;
-   
-
 }
-
-
 .row {
   display: flex;
     padding-top: 10%;
-
-
 }
 
 /* Create four equal columns that sits next to each other */
@@ -165,18 +135,11 @@ color: #eaffff;
   max-width: 19.8%;
   padding: 0 4px;
 }
-
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
-
-
-
-
-
-
 .sf h1{
     color: #eaffff;
     font-size: 45px;
@@ -185,24 +148,16 @@ color: #eaffff;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
      font-family: 'Cinzel', serif;
     text-align: center;
-    
 }
-
-
-
-
-
 /*--Video--*/
 
 .vid{
- 
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.9),rgba(235,255,255,1)),url(crim4.jpeg);
     background-size: cover;
     background-position: center;
     padding-top: 100px;
 }
-
 .video{
     position: relative;
     top: 150px;
@@ -210,7 +165,6 @@ color: #eaffff;
     width: 100px;
     right: 250px;
 }
-
 .video-title h{
     position: absolute;
     width: 75%;
@@ -220,20 +174,14 @@ color: #eaffff;
     font-size: 32px;
     padding-bottom: 10px;  
 }
-
-
-
-
 .right{
     padding-top: 400px;
     width: 90%;
     padding-bottom: 100px;
        margin-left: 10%;
-
 }
 .news{
    background-color: #eaffff;
-    
 }
 .newstitle h{
     color: #2B547E;
@@ -242,39 +190,26 @@ color: #eaffff;
     padding-bottom: 25px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
      font-family: 'Cinzel', serif;
-
-  
-    
 }
-
-
 
 /*----*/
 
-
 .list {
-
- 
-    display: grid;
+display: grid;
     grid-template-columns: 1fr 3fr;
     grid-gap: 10px;
     position: relative;
     display: flex;
     padding-bottom: 15px;
-}
-    
-    
+} 
 .list img{
     width: 100px;
     height: 75px;
 }
-
-
 .heading-3{
     font-size: 20px;
     text-transform: uppercase;
     color: #2B547E;
-
     margin-top: -150px;
     padding-bottom: 20px;
     display: flex;
@@ -282,21 +217,13 @@ color: #eaffff;
 }
 .right p{
     color: #2B547E;
-    width: 200px;
-    
-   
+    width: 200px; 
 }
 
 .right p1{
     color: #2B547E;
     font-size: 12px;
-    
-  
-   
 }
-
-
-
 
 /*--Connect--*/
 
@@ -307,15 +234,11 @@ color: #eaffff;
     padding-bottom: 100px;
     background-color: #2B547E; 
 }
-
-
 .foot-links{
     flex: 1;
     text-align: center;
-    margin-bottom:25px;
-    
+    margin-bottom:25px;  
 }
-
 .foot-links ul li{
     list-style: none;
     display: inline-block;
@@ -331,13 +254,8 @@ color: #eaffff;
     position: relative;
     cursor: pointer; 
 }
-
-
-
 .connect h{
-    color: #eaffff;
-    
-    
+    color: #eaffff; 
 }
 .icon{
     align-content: center;
@@ -346,41 +264,27 @@ color: #eaffff;
 .fb {
     height: 50px;
 }
-
-
-
-
-
 .disclaimer p{
     color: #eaffff;
     font-size: 14px;
     top: 50px;
     position: relative;
     padding-bottom: 10px;
-
 }
 .disclaimer a{
     color: #eaffff;
     font-size: 14px;
      top: 50px;
     padding: 1px;
-    
    position: relative;
 }
 
-
-
-
-
 @media(max-width: 800px){
-    
-    
     
     nav1 p1{
     color: #eaffff;
     font-size: 10px;
         padding: 12px;}
-        
     .school-name{
     width: 100%;
     height: 90px;
@@ -388,14 +292,12 @@ color: #eaffff;
     display: flex; 
     top: 0;
         background-color: #128551; }
-        
     .school-name h1{
     font-size: 20px;
     font-family: 'Cinzel', serif;
     top: 10px;
     left: 130px;
-    color: #eaffff;
-   
+    color: #eaffff;  
 }
 .school-name p{
     font-size: 10px;
@@ -423,11 +325,6 @@ color: #eaffff;
      padding-top: 50px;}
     .top-section{
         height: auto;}
-
- 
-    
-    
-    
     .video{
     position: relative;
     padding-top: 10px;
@@ -436,7 +333,6 @@ color: #eaffff;
         width: 90%;
     right: auto;
 }
-
 .video-title h{
     display: flex;
     position: relative;
@@ -444,10 +340,5 @@ color: #eaffff;
     color: #eaffff;
     font-size: 24px;
     width: 80%;
-    
 }
-    
- 
-
-
 }
