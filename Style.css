@@ -7,9 +7,10 @@
 .top-section{
     
     width: 100%;
-    padding-bottom: 150px;
-    background-image: linear-gradient(rgba(43,84,126,0.7),rgba(11,21,31,0.9)),url(mega2.jpeg);
+    padding-bottom: 120px;
+    background-image: linear-gradient(rgba(43,84,126,0.7),rgba(11,21,31,0.9)),url(mega1.jpeg);
     background-size: cover;
+    background-position: center;
 }
 nav1{
     display: flex;
@@ -110,16 +111,15 @@ nav2{
 /*--Slide Show--*/
 .slider{
     width: 90%;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin:auto;
     display: flex; 
 }
 
 .slides{
     width 500%;
-    height: 400px;
+    height: 600px;
     display: flex;
 }
 .slides input{
@@ -132,7 +132,7 @@ nav2{
 }
 .slide img{
     width: 1155px;
-    height: 400px;
+    height: 600px;
 }
 /*--Manual Nav--*/
 
@@ -158,13 +158,25 @@ nav2{
     margin-left: 0;
 }
 #radio2:checked ~ .first{ 
-    margin-left: -25%;
+    margin-left: -14.3%;
 }
 #radio3:checked ~ .first{
-    margin-left: -50%;
+    margin-left: -33.3%;
 }
 #radio4:checked ~ .first{
-    margin-left: -75%;
+    margin-left: -60%;
+}
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+#radio6:checked ~ .first{
+    margin-left: -125%;
+}
+#radio7:checked ~ .first{
+    margin-left: -150%;
+}
+#radio8:checked ~ .first{
+    margin-left: -175%;
 }
 
 /*--auto nav--*/
@@ -192,6 +204,18 @@ nav2{
     background: #eaffff;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #eaffff;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #eaffff;
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background: #eaffff;
+}
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background: #eaffff;
+}
+#radio8:checked ~ .navigation-auto .auto-btn8{
     background: #eaffff;
 }
 
@@ -396,19 +420,16 @@ nav2{
 }
 
     .slider{
-    width: 90%;
-    height: 190px;
+    width: 100%;
+    height: 200px;
     overflow: hidden;
     display: flex;
-}
-
-.slides{
-    width 500%;
-    height: 190px;
+        margin: auto;
 }
 
 .slides input{
     display: none;
+   
 }
 
 .slide{
@@ -417,8 +438,9 @@ nav2{
 }
 
 .slide img{
-   width: 480px;
-    height: 192.45px;
+   width: 380px;
+    height: 200px;
+    
 }
     .navigation-manual{
     position: absolute;
