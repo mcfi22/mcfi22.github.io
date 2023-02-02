@@ -128,6 +128,7 @@ nav2{
 }
 .ptext {
     width: 90%;
+        text-align: justify;
 }
 .ptext h1{
    text-align: center;
@@ -140,7 +141,16 @@ nav2{
     position: relative;
     white-space: pre-line;
     padding-bottom: 10px;
+    left: 5%;
+
+}
+.ptext p2{
+    position: relative;
+    white-space: pre-line;
+    padding-bottom: 10px;
     left: 5%; 
+    font-size: 14px;
+    
 }
 
 
@@ -281,7 +291,6 @@ nav2{
     font-size: 16px;
 }
 .ptext p1{
-      
     padding-bottom: 8px;
     left: 5%;
     font-size: 12px;
