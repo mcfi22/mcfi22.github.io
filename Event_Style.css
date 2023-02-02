@@ -106,9 +106,8 @@ nav2{
     font-size: 13px;
 }
 .nefont h1{
-
 color: #eaffff;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: 600;
     padding-bottom: 25px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
@@ -127,6 +126,77 @@ color: #eaffff;
 .row {
   display: flex;
     padding-top: 10%;
+}
+.gal{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,29,92,0.7),rgba(4,9,30,0.9)),url(mega1.jpeg);
+    background-size: cover;
+    padding-bottom: 100px;
+     background-position: center;
+}
+.gal h2{
+    color: #eaffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+   text-align: center;
+      font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+     font-family: 'Cinzel', serif;
+}
+
+.gal p{
+    color: #eaffff;
+}
+.desc{
+    color: #eaffff;
+}
+div.gallery {
+ 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Create four equal columns that sits next to each other */
