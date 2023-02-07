@@ -4,14 +4,7 @@
     font-family: 'Cinzel', serif;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-.top-section{
-    
-    width: 100%;
-    padding-bottom: 120px;
-    background-image: linear-gradient(rgba(43,84,126,0.7),rgba(11,21,31,0.9)),url(mega1.jpeg);
-    background-size: cover;
-    background-position: center;
-}
+
 nav1{
     display: flex;
     padding: 0.01% 6%;
@@ -109,21 +102,33 @@ nav2{
 }
 
 /*--Slide Show--*/
+
+.banner {
+      
+    width: 100%;
+  
+    background-image: linear-gradient(rgba(43,84,126,0.7),rgba(11,21,31,0.9)),url(mega1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
 .slider{
-    width: 90%;
+    width: 100%;
     height: 600px;
     overflow: hidden;
     margin:auto;
     display: flex; 
+    
 }
 
 .slides{
     width 500%;
     height: 600px;
     display: flex;
+    
 }
 .slides input{
     display: none; 
+    
 }
 
 .slide{
@@ -131,8 +136,10 @@ nav2{
     transition: 2s; 
 }
 .slide img{
-    width: 1155px;
+    width: 1300px;
     height: 600px;
+    justify-content: center;
+  
 }
 /*--Manual Nav--*/
 
@@ -161,7 +168,7 @@ nav2{
     margin-left: -14.3%;
 }
 #radio3:checked ~ .first{
-    margin-left: -33.3%;
+    margin-left: -33.5%;
 }
 #radio4:checked ~ .first{
     margin-left: -60%;
@@ -227,17 +234,92 @@ nav2{
     margin: auto;
     width: 660px;
     left: 50px;
+    padding-bottom: 100px;
 }
-.video-section h{
-    position: relative;
+.vidtitle h1{
+    
     text-align: center;
+    justify-content: center;
     display: flex;
     top: 140%;
     padding-top: 100px;
-    margin: 0 150px 0 200px;
-    color: #2B547E;
+
+    color: #eaffff;
     font-size: 32px;
     font-family: 'Cinzel', serif;
+}
+
+.gal{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,29,92,0.7),rgba(4,9,30,0.9)),url(megabuilding.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+     background-position: center;
+
+}
+.gal h2{
+    color: #eaffff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+   text-align: center;
+      font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+     font-family: 'Cinzel', serif;
+}
+
+.gal p{
+    color: #eaffff;
+}
+.desc{
+    color: #eaffff;
+}
+div.gallery {
+ 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /*--Acad--*/
 
