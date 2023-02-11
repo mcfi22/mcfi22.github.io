@@ -39,7 +39,7 @@ nav1 p1{
     height: 120px;
     position: relative;
     display: flex;
-    background-color: #128551;
+   
 }
 .school-name h1{
     font-size: 40px;
@@ -110,6 +110,7 @@ nav2{
     background-image: linear-gradient(rgba(43,84,126,0.7),rgba(11,21,31,0.9)),url(mega1.jpeg);
     background-size: cover;
     background-position: center;
+
 }
 .slider{
     width: 100%;
@@ -117,7 +118,7 @@ nav2{
     overflow: hidden;
     margin:auto;
     display: flex; 
-    
+   
 }
 
 .slides{
